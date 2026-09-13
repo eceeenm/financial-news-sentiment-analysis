@@ -47,9 +47,9 @@ source .venv/bin/activate
 ```
 
 2. Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 
 3. Train the model:
 ```
@@ -58,6 +58,6 @@ python3 train.py
 ```
 
 4. Evaluate the model:
-
+```
 python3 evaluate.py
-
+```
