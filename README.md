@@ -25,7 +25,6 @@ This project classifies financial news into:
 
 ## Project Structure
 
-```
 financial-news-sentiment-analysis/
 ├── data/
 │ └── all-data.csv
@@ -36,7 +35,7 @@ financial-news-sentiment-analysis/
 │ └── evaluate.py # evaluates the trained model
 ├── requirements.txt
 └── README.md
-```
+
 
 ## How to Run
 
@@ -60,3 +59,4 @@ python3 train.py
 4. Evaluate the model:
 
 python3 evaluate.py
+
