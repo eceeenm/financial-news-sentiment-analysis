@@ -25,6 +25,7 @@ This project classifies financial news into:
 
 ## Project Structure
 
+```
 financial-news-sentiment-analysis/
 ├── data/
 │ └── all-data.csv
@@ -35,6 +36,7 @@ financial-news-sentiment-analysis/
 │ └── evaluate.py # evaluates the trained model
 ├── requirements.txt
 └── README.md
+```
 
 ## How to Run
 
@@ -43,14 +45,17 @@ financial-news-sentiment-analysis/
 python3 -m venv .venv
 source .venv/bin/activate
 
+
 2. Install dependencies:
 
 pip install -r requirements.txt
+
 
 3. Train the model:
 
 cd src
 python3 train.py
+
 
 4. Evaluate the model:
 
